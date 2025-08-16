@@ -1,0 +1,337 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\name{First Last} % Your name
+
+\JobTitle{Software Engineer} % Bold Job Title, use 2 only (and use either this or the below one)
+\job{Software Engineer \\ Electrical \& Communications Engineer \\ Academic Writer} % Your Job, can use up to 3
+
+\address{+0(000) 000-00000 \\ \href{mailto:x@gmail.com}{x@gmail.com} \\ Palo Alto, California, US} %SE
+\address{\href{https://linkedin.com/in/X}{linkedin.com/in/X} \\ \href{https://github.com/X}{github.com/X} \\ \href{https://github.com/X}{Website}}
+
+\begin{document}
+
+% In large resume's it is better to separate sections into independant files with .tex extension as follows:
+% \input{Template.tex} % Where "Template" is the name of file you chose.
+
+%----------------------------------------------------------------------------------------
+%	Profile Picture
+%----------------------------------------------------------------------------------------
+% Must be adjusted for each picture, make your profile picture background free
+% Adjust numbers in dimexpr, scale or even image file name instead of img
+\begin{textblock*}{\paperwidth}(\dimexpr7in+0.13in,0.3in) % to right: (0.4in,0.3in)
+    \noindent\includegraphics[scale=0.35]{omar-shawky.png}
+\end{textblock*}
+
+%----------------------------------------------------------------------------------------
+%	Summary
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+    % Elevator Pitch Summary Start
+    % Credentials and Major projects
+    Software Engineer with +5 years of experience.
+    Currently working at Google on Google Assistant.
+    Bachelor's in Computer Science.
+    % Major Projects
+    Built 12 Projects including Chess, Image Aware Resizing Algorithm in Adobe Photoshop.
+    % Write after this line things mentioned in "About the Job"
+    % Elevator Pitch Summary End
+    % Community related (Mentorship, coaching)
+    Mentored 29 Senior college students, 5 students joined Google, 10 joined Meta.
+    % Interest
+    Interested in solving hard algorithmic problems.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Education Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+    \begin{rOSubsection}
+        {Self-Education}
+        {OSSU \& MOOCs}
+        {Oct 2021 \\ Present}
+        [\href{https://github.com/ossu/computer-science}{OSSU} lists Computer Science courses from Stanford University, University of Washington.]
+        [https://github.com/]
+        [Portfolio Link]
+        \begin{rItemize}
+            \item Implemented X, Y, Z in Languages A, B C.
+            \item \textbf{Programming Coursework}: Programming Languages, Algorithms \& Data Structures, Object-Oriented Analysis \& Design, Design Patterns, Software Architecture
+        \end{rItemize}
+    \end{rOSubsection}
+
+    \begin{rESubsection}
+        {B.S. in Computer Science}
+        {Stanford University}
+        {Start Date \\ End Date} % Date: Mon Year
+        [Location] % Optional
+        \begin{rItemize}
+            \item \textbf{Programming Coursework}: X. (\textbf{GPA}: X/4.0) %C+, 73/100
+            \item \textbf{ECE Coursework}:
+        \end{rItemize}
+    \end{rESubsection}
+
+    \begin{rESubsection}
+        {High School}
+        {School name}
+        {Start Date \\ End Date} % Date: Mon Year
+        [Location]
+    \end{rESubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Skills Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+    \begin{rTable}
+        Technical        & Skill 1, Skill 2 \\
+        Engineering      & Skill 1, Skill 2 \\
+        Others           & Skill 1, Skill 2 \\
+        Languages        & English (Bilingual), Arabic (Native), French (Elementary)
+    \end{rTable}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Professional Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+    \begin{rSubsection}
+        {Role}
+        {Company Name}
+        {Start Date \\ End Date}
+        [Location]
+        [Company description] % Optional, erase if unneeded
+        \begin{rItemize}
+            \item Achieved X As Measured by Y Using Z.
+            \begin{rItemize}
+                \item Achieved X, by doing Z.
+                \item Achieved X, as measured by Y, by doing Z.
+                \item Achieved X\%, as measured by Y, by using technologies A, B and skills C, D.
+                \item Achieved X\% growth for Y, by using technologies A, B and skills C, D.
+                \item Led X, Y that led to Z\% of improvement in A, B, C.
+            \end{rItemize}
+            \item Designed, built, and developed X that did Y and Z, using A and B.
+        \end{rItemize}
+    \end{rSubsection}
+
+    \begin{rSubsection}
+        {Software Engineer}
+        {Google}
+        {Sep 2023 \\ Present}
+        [California, USA]
+        [Company description] % Optional, erase if unneeded
+        \begin{rItemize}
+            \item Same as Above.
+        \end{rItemize}
+    \end{rSubsection}
+
+    \begin{rSubsection}
+        {Software Engineer}
+        {Company}
+        {Sep 2022 \\ Present}
+        [Remote]
+        [Company description] % Optional, erase if unneeded
+        \begin{rItemize}
+            \item Same as Above.
+        \end{rItemize}
+    \end{rSubsection}
+
+    \begin{rOSubsection}
+        {Freelance Software Engineer}
+        {Upwork. \href{https://github.com/}{Link}} % If it is education
+        {Mar 2020 \\ Sep 2023}
+        \begin{rItemize}
+            \item Same as Above.
+        \end{rItemize}
+    \end{rOSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Open Source Projects Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Open Source Projetcs}
+    \begin{rOSubsection}
+        {Paid Contributor}
+        {Chromium Web Browser}
+        {Mar 2024 \\ Present}
+        [Open source web browser which Chrome, Edge, and Brave are built on.]
+        [https://github.com/OmarShawky1/CS-Roadmap#projects]
+        [Pull Requests]
+        \begin{rItemize}
+            \ritem [Built X which did A, B, and C using D, E, and F.][https://github.com/][PR]
+            \ritem [Developed Y which did A, B, and C using D, E, and F.][https://github.com/][PR]
+            \ritem [Designed, Built, Implemented, tested, and shipped Y which did A, B, and C using technologies D, E, and F.][https://github.com/][PR]
+            % Highly unrecomended unless necessary
+            \begin{rItemize}
+                \item Same as in Experience section.
+            \end{rItemize}
+            % Most of the following points are rarely used for open source.
+            \item Same as in Experience section.
+        \end{rItemize}
+    \end{rOSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Projects Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+    \begin{rProjects}{Project Name}{Achieved X\% growth for XYZ using A, B, and C skills/technologies.}
+    \end{rProjects}
+
+    \begin{rProjects}{Project Name}{Description.}
+        [https://github.com/X]
+        [Project Link] % Replace "Project Link" with the name you want
+        \begin{rItemize}
+            \item Same as in Open Source Projects bullet points.
+        \end{rItemize}
+    \end{rProjects}
+
+    \begin{rProjects}{Project Name}{Description.}
+        [https://github.com/X]
+        []
+        \begin{rItemize}
+            \item Same as Above.
+        \end{rItemize}
+    \end{rProjects}
+
+    \begin{rProjects}{Project Name}{Description}
+        \begin{rItemize}
+            \item Same as Above.
+        \end{rItemize}
+    \end{rProjects}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Certificates Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Certificates \& Awards}
+    \begin{rOSubsection}
+        {Certificate Name}
+        {Little Description}
+        {Issued Date}
+    \end{rOSubsection}
+
+    \begin{rOSubsection}
+        {AZ-400}
+        {Designing \& Implementing Microsoft DevOps Solutions}
+        {Mar 2024}
+    \end{rOSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Extra-Curricular Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra-Curricular Activities}
+    \begin{rItemize}
+        \item Provided Mentorship for 29 senior college students.
+        \item Coached 100+ College students.
+        \item Provided Soft Skills Communications sessions in University X.
+        \item Tutored Algorithms \& Data Structures.
+        \item Helped students in Résumé Writing.
+    \end{rItemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Leadership Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Leadership}
+    \begin{rItemize}
+        \item Led Team of 30 to ICPC finals in 2021.
+        \item Led Team of 25 to ACPC finals in 2023.
+    \end{rItemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Recommendations Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Recommendations}
+    \begin{recommendation}
+        {Text}
+        {Author}
+        {Role}
+    \end{recommendation}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Publications Section
+%----------------------------------------------------------------------------------------
+
+\rPublications{publications} % 'publications' is the name of a BibTeX file
+
+%----------------------------------------------------------------------------------------
+%	ATS Section
+%----------------------------------------------------------------------------------------
+%  Untested and may cause harm
+\ATS{
+Job brief
+We are seeking an enthusiastic Accounting intern to join our team. This entry-level role is ideal for recent graduates or students in their last year of Accounting & Finance studies. As an intern, you will work in our accounting department, gaining hands-on experience and contributing to various accounting tasks.
+
+This is a great opportunity to grow your skills and knowledge in the field of accounting.
+
+Responsibilities
+Handle transactional accounting for local and international entities
+Assist with accounting entries and periodic report preparation
+Support month-end closing processes
+Perform general accounting tasks, including reconciliations and invoice handling
+Contribute to ad hoc accounting projects as needed
+Requirements and skills &&&&&&&&
+Recent graduate or currently in the last year of Accounting & Finance studies (BSc or MSc)
+Excellent command of the English language
+Proficient in Office Suite, especially Excel
+Basic knowledge of accounting software (preferred)\%^#*@)(&(*^!))Job brief
+We are seeking an enthusiastic Accounting intern to join our team. This entry-level role is ideal for recent graduates or students in their last year of Accounting & Finance studies. As an intern, you will work in our accounting department, gaining hands-on experience and contributing to various accounting tasks.
+
+This is a great opportunity to grow your skills and knowledge in the field of accounting.
+
+Responsibilities
+Handle transactional accounting for local and international entities
+Assist with accounting entries and periodic report preparation
+Support month-end closing processes
+Perform general accounting tasks, including reconciliations and invoice handling
+Contribute to ad hoc accounting projects as needed
+Requirements and skills &&&&&&&&
+Recent graduate or currently in the last year of Accounting & Finance studies (BSc or MSc)
+Excellent command of the English language
+Proficient in Office Suite, especially Excel
+Basic knowledge of accounting software (preferred)\%^#*@)(&(*^!))Job brief
+We are seeking an enthusiastic Accounting intern to join our team. This entry-level role is ideal for recent graduates or students in their last year of Accounting & Finance studies. As an intern, you will work in our accounting department, gaining hands-on experience and contributing to various accounting tasks.
+
+This is a great opportunity to grow your skills and knowledge in the field of accounting.
+
+Responsibilities
+Handle transactional accounting for local and international entities
+Assist with accounting entries and periodic report preparation
+Support month-end closing processes
+Perform general accounting tasks, including reconciliations and invoice handling
+Contribute to ad hoc accounting projects as needed
+Requirements and skills &&&&&&&&
+Recent graduate or currently in the last year of Accounting & Finance studies (BSc or MSc)
+Excellent command of the English language
+Proficient in Office Suite, especially Excel
+Basic knowledge of accounting software (preferred)\%^#*@)(&(*^!))Job brief
+We are seeking an enthusiastic Accounting intern to join our team. This entry-level role is ideal for recent graduates or students in their last year of Accounting & Finance studies. As an intern, you will work in our accounting department, gaining hands-on experience and contributing to various accounting tasks.
+
+This is a great opportunity to grow your skills and knowledge in the field of accounting.
+
+Responsibilities
+Handle transactional accounting for local and international entities
+Assist with accounting entries and periodic report preparation
+Support month-end closing processes
+Perform general accounting tasks, including reconciliations and invoice handling
+Contribute to ad hoc accounting projects as needed
+Requirements and skills &&&&&&&&
+Recent graduate or currently in the last year of Accounting & Finance studies (BSc or MSc)
+Excellent command of the English language
+Proficient in Office Suite, especially Excel
+Basic knowledge of accounting software (preferred)\%^#*@)(&(*^!))
+}
+
+\end{document}
