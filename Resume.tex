@@ -1,0 +1,114 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\name{Christopher Tapia} % Your name
+
+% \JobTitle{Software Engineer} % Bold Job Title, use 2 only (and use either this or the below one)
+% \job{Software Engineer \\ Electrical \& Communications Engineer \\ Academic Writer} % Your Job, can use up to 3
+
+\address{+1 (562) 209-3994 \\ \href{mailto:christapia898@gmail.com}{christapia898@gmail.com} \\ Long Beach, CA} %SE
+\address{href{https://linkedin.com/in/X}{linkedin.com/in/X} \\ \href{https://github.com/X}{github.com/X} \\ \href{https://Christopher-tapia.com}{Christopher-tapia.com}}
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	Summary
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+    % Elevator Pitch Summary Start
+    % Credentials and Major projects
+    Recent graduate, DevOps-focused software engineer with hands-on experience in CI/CD pipeline development, cloud infrastructure management, and automated testing implementation. Experience in maintaining and resolving technical issues across development environments. Strong background in systems integration and software automation with experience supporting development teams. Bachelor's in Informatics: Organizations and Information Technology from University of California, Irvine.
+    % Major Projects
+    Built full-stack web applications including BJJ Roll Track, Play-Picks.com, and a React Native Second Brain App for ADHD task management.
+    % AWS Certified Cloud Practitioner (in progress)
+    Currently pursuing AWS Certified Cloud Practitioner certification.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Education Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+    \begin{rESubsection}
+        {Bachelor of Science, Informatics: Organizations and Information Technology}
+        {University of California, Irvine}
+        {Sep 2021 \\ June 2025} % Date: Mon Year
+        [Irvine, CA] % Optional
+        \begin{rItemize}
+            \item \textbf{Relevant Coursework}: Systems Administration, Project Management, Software Architecture, Software Testing, Database Management
+        \end{rItemize}
+    \end{rESubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Skills Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+    \begin{rTable}
+        Technical        & Systems Integration, CI/CD Pipelines, AWS (Lambda, Python, Javascript, React, Docker, Kubernetes) \\
+        Professional     & Critical thinking, Troubleshooting, Problem-Solving, Self-Starter \\
+        Languages        & English (Native), Spanish (Bilingual)
+    \end{rTable}
+\end{rSection}
+
+\input{Experience}
+
+%----------------------------------------------------------------------------------------
+%	Projects Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+    \begin{rProjects}{Dev Ops Support Capstone | BJJ Roll Track}{Full-stack web application serving gym owners with attendance tracking, analytics dashboard, and membership management features.}
+        [Jan 2025 - June 2025]
+        [Irvine, CA]
+        \begin{rItemize}
+            \item Developed full-stack web application serving gym owners with attendance tracking, analytics dashboard, and membership management features
+            \item Designed and implemented RESTful APIs for seamless frontend-backend integration and data management
+            \item Deployed and maintained application infrastructure on AWS EC2 with automated CI/CD pipeline using GitHub Actions
+            \item Implemented docker containerization and comprehensive testing suite including unit and integration tests to ensure code quality and reliability
+        \end{rItemize}
+    \end{rProjects}
+
+    \begin{rProjects}{Play-Picks.com}{Team collaboration on production-ready application with performance optimization and real-time analytics.}
+        [June 2024 - May 2025]
+        []
+        \begin{rItemize}
+            \item Collaborated with team members across different specializations to deliver production-ready application
+            \item Optimized application performance through code reviews, monitoring, and iterative improvements
+            \item Built Node JS API endpoints for real-time analytics and reporting features
+        \end{rItemize}
+    \end{rProjects}
+
+    \begin{rProjects}{Second Brain React Native App}{Cross-platform mobile application for ADHD task management and scheduling using React Native.}
+        [May 2025 - Present]
+        []
+        \begin{rItemize}
+            \item Developed cross-platform mobile application using React Native for ADHD task management and scheduling
+            \item Created intuitive UX/UI designs focused on accessibility and user engagement for individuals with attention challenges
+            \item Implemented data storage and synchronization features for seamless user experience across devices using MySQLite and Google Firebase
+        \end{rItemize}
+    \end{rProjects}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Certificates Section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Certificates \& Awards}
+    \begin{rOSubsection}
+        {AWS Certified Cloud Practitioner}
+        {In Progress}
+        {2025}
+    \end{rOSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ATS Section
+%----------------------------------------------------------------------------------------
+%  Untested and may cause harm
+\ATS{
+}
+
+\end{document}
